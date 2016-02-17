@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <title>Semesters</title>
+</head>
+
+<body>
+  <p>What are the next <%= num %> semesters from <%= current %>?</p>
+  <table>
+    <% semester.each do |elem| %>
+      <tr>
+        <td>
+          <%= elem %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+  <br>
+  <a href="/">Home</a>
+</body>
+
+</html>
